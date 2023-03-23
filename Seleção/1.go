@@ -7,7 +7,6 @@ func main() {
 	var y int
 	fmt.Print("Informe dois números ")
 	fmt.Scan(&x, &y)
-
 	if x > y {
 		fmt.Println(x, "é maior que", y)
 	} else if x < y {
